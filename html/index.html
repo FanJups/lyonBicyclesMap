@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    
+    <meta charset="utf-8">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="Application permettant la réservation de vélos dans la ville de Lyon">
+
+    <meta name="author" content="Vélo'v">
+
+    <meta property="og:title" content="Vélo'v"/> 
+
+    <meta property="og:type" content="website"/>
+
+
+	<meta property="og:description" content="Application permettant la réservation de vélos dans la ville de Lyon"/>
+
+	<meta name="twitter:card" content="Application permettant la réservation de vélos dans la ville de Lyon">
+
+	<meta name="twitter:title" content="Vélo'v">
+
+	<meta name="twitter:description" content="Application permettant la réservation de vélos dans la ville de Lyon">
+
+	<meta name="twitter:creator" content="Vélo'v">
+    
+	<title>Vélo'v</title>
+    
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+
+	<link rel="icon" href="../images/icone/logo-velov.png">
+
+    
+
+	<!-- [if IE]><link rel="shortcut icon" type="image/x-icon" href="images/ico/favicon.ico"><![endif]-->
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+</head>
+    
+<body>
+    
+    <!--Début bloc général-->
+    
+    <div id="velov_page">
+
+        <!--Arrow left-->
+
+        <div id="arrow_left">
+
+            <
+            
+
+        </div>
+
+        <!--Arrow right-->
+
+        <div id="arrow_right">
+            
+            >
+
+        </div>
+
+        
+        <!--Début diapo-->
+        
+        <header id="velov_diapo">
+
+
+            
+        
+        
+        
+        </header>
+        
+        <!--Fin diapo-->
+        
+        <!--Début stations-->
+        
+        <section id="velov_stations">
+            
+            
+            <!--Début map-->
+            
+            <div id="velov_map">
+                
+                <!-- ici mettre la map--> 
+            
+            
+            
+            </div>
+            
+            <!--Fin map-->
+            
+            <!--Début etats-->
+            
+            <div id="velov_etats">
+
+
+                <p id="velov_details">
+
+                    Détails de la station
+                    
+                </p>
+
+
+                <p id="velov_numero">
+                    
+                </p>
+
+                <p id="velov_nom">
+                    
+                </p>
+
+                <p id="velov_adresse">
+                    
+                </p>
+
+                <p id="velov_statut">
+                    
+                </p>
+
+                <p id="velov_places_total">
+                    
+                </p>
+
+                <p id="velov_velos_dispos">
+                    
+                </p>
+
+                <p id="velov_places_dispos">
+                    
+                </p>
+
+                <p id="velov_paiement">
+                    
+                </p>
+
+                <p id="velov_bonus">
+                    
+                </p>
+
+                <p id="velov_misajour">
+                    
+                </p>
+
+                <button id="velov_bouton_reservation">Réserver</button>  
+
+               
+            
+            </div>
+            
+            <!--Fin etats-->
+        
+        
+        
+        </section>
+        
+        <!--Fin stations-->
+        
+        
+        <!--Début réservations-->
+        
+        <footer id="velov_reservations">
+            
+            <!--Début infos-->
+            
+            <div id="velov_infos"></div>
+
+
+            
+            <!--Fin infos-->
+            
+            <!--Début signature-->
+            
+            <div id="velov_signature">
+
+                <canvas id="canvas_signature">
+                    
+
+                </canvas>
+
+                <button id="velov_validation"> Je valide</button>
+            
+            
+            
+            </div>
+            
+            <!--Fin signature-->
+        
+        
+        
+        </footer>
+        
+        
+        <!--Fin réservations-->
+        
+        
+    
+    
+    </div>
+    
+    <!--Fin bloc général--> 
+
+
+    <!--Jquery-->
+    
+    <script src="../js/jquery-3.3.1.js"></script>  
+
+    <!--Speech-->
+
+    <script src="../js/speech.js"></script>
+
+    <!--Diapo-->
+
+    <script src="../js/slide.js"></script>
+
+    <!--Signature-->
+
+    <script src="../js/signature.js"></script>
+    
+    <!-- Méthodes AJAX-->
+    
+    <script src="../js/ajax.js"></script>
+    
+    <!-- Affichage de la carte de Lyon-->
+    
+    
+    <script src="../js/mapLyon.js"></script>
+    
+    
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBk6itfMcZCT7lcUbAliuPcEvZCmKlPFPY&callback=initMap"
+    async defer></script>
+    
+
+</body>
+    
+</html>
